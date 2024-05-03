@@ -80,11 +80,11 @@ export function app(): express.Express {
         var seo: any = {
           title: 'Skin toy tube',
           description:
-            'Find like minded male or female unvaccinated organic humans!',
+            'Live Demos! Talk One-on-One Face-to-Face',
           image:
-            'https://tube.organic.dating/assets/Healing-Tube-Logo.jpg',
-          site: 'https://tube.organic.dating/',
-          url: 'https://tube.organic.dating' + params,
+            'https://tube.skin.toys/assets/Healing-Tube-Logo.jpg',
+          site: 'https://tube.skin.toys/',
+          url: 'https://tube.skin.toys' + params,
           keywords: 'SkinToy',
         };
         if (
@@ -128,7 +128,7 @@ export function app(): express.Express {
           const talent = {
             name: post?.title || post?.albumname || 'Healing.Tube Post',
             description: pdhtml?.textContent || 'Post content',
-            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://tube.organic.dating/assets/Healing-Tube-Logo.jpg',
+            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://tube.skin.toys/assets/Healing-Tube-Logo.jpg',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);
