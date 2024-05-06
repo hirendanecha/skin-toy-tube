@@ -82,7 +82,7 @@ export function app(): express.Express {
           description:
             'Live Demos! Talk One-on-One Face-to-Face',
           image:
-            'https://tube.skin.toys/assets/Healing-Tube-Logo.jpg',
+            'https://tube.skin.toys/assets/img/skin.png',
           site: 'https://tube.skin.toys/',
           url: 'https://tube.skin.toys' + params,
           keywords: 'SkinToy',
@@ -126,9 +126,9 @@ export function app(): express.Express {
           const pdhtml = document.createElement('div');
           pdhtml.innerHTML = post?.postdescription || post?.metadescription;
           const talent = {
-            name: post?.title || post?.albumname || 'Healing.Tube Post',
+            name: post?.title || post?.albumname || 'Skintoys.Tube Post',
             description: pdhtml?.textContent || 'Post content',
-            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://tube.skin.toys/assets/Healing-Tube-Logo.jpg',
+            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://tube.skin.toys/assets/img/skin.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);
