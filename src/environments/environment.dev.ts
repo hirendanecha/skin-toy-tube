@@ -1,7 +1,7 @@
-const loginUrl = 'https://organic.dating/login';
-const logoutUrl = 'https://organic.dating/logout';
-const frontendUrl = 'https://tube.organic.dating/';
-const backendUrl =  'https://api.organic.dating/';
+const loginUrl = 'https://skin.toys/login';
+const logoutUrl = 'https://skin.toys/logout';
+const frontendUrl = 'https://tube.skin.toys/';
+const backendUrl =  'https://api.skin.toys/';
 
 // const frontendUrl = 'http://localhost:4200/';
 // const backendUrl = 'http://localhost:8080/';
@@ -15,7 +15,7 @@ export const environment = {
   backendUrl: backendUrl,
   loginUrl: loginUrl,
   apiUrl: `${backendUrl}api/v1/`,
-  domain: '.organic.dating',
+  domain: '.skin.toys',
   wasabiUrl: wasabiUrl,
   socketUrl: `${backendUrl}`,
   conferenceUrl: 'https://facetime.tube/',
