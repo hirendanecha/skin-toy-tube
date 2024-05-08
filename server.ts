@@ -78,7 +78,7 @@ export function app(): express.Express {
         }
         const params = req.params[0];
         var seo: any = {
-          title: 'Skin toy tube',
+          title: 'SkinToy.tube',
           description:
             'Live Demos! Talk One-on-One Face-to-Face',
           image:
